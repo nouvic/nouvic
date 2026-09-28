@@ -43,7 +43,7 @@ Automate the repetition. Keep people accountable for consequential decisions.
 I’m sharing tools and engineering lessons from the problems I encounter
 while building with AI.
 
-### Hygiene · preparing for public release
+### [Hygiene](https://github.com/nouvic/hygiene) · public beta
 
 AI-assisted repositories can accumulate instructions long after the
 decisions behind them have changed.
@@ -55,6 +55,9 @@ records of past disagreements, and references to missing documents.
 - Optional Git hooks to catch new residue at commit time.
 - Bash and Git at its core.
 - Free and open source. No API key, model calls, or telemetry.
+
+[Try Hygiene](https://github.com/nouvic/hygiene) and share what it finds. Useful
+findings, false positives, and clean scans all help improve the tool.
 
 It reflects a question that runs through my work:
 **what is the system treating as an instruction, and does it still belong there?**
